@@ -1,0 +1,1 @@
+vim.cursor([[ set guicursor= ]])

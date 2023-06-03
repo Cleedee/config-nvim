@@ -1,1 +1,1 @@
--- comentário
+require("settings")
