@@ -1,1 +1,1 @@
-require("settings")
+require("configs.settings")

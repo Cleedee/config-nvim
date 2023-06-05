@@ -1,0 +1,6 @@
+vim.cmd([[ set guicursor= ]])
+vim.cmd([[ set encoding=utf8 ]])
+vim.cmd([[ set nu! ]])
+vim.cmd([[ set mouse=a ]])
+vim.cmd([[ set wildmenu ]])
+vim.cmd([[ set confirm ]])
