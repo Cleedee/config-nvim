@@ -1,5 +1,6 @@
 require("configs.settings")
 require("plugins")
 require("treesitter-config")
+require("telescope-config")
 vim.cmd('colorscheme nightfox')
 -- vim.cmd('colorscheme sobrio')
