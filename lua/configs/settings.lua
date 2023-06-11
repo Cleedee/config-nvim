@@ -41,10 +41,19 @@ vim.cmd([[ set softtabstop=2 ]])
 -- está habilitado. No caso abaixo, 2 espaços serão inseridos toda
 -- vez que digitar a tecla tab.
 vim.cmd([[ set tabstop=2 ]])
+-- Altera o formato do cursor 
 vim.cmd([[ set guicursor= ]])
+-- Usado para reaçar a linha do cursor
 vim.cmd([[ set cursorline ]])
+-- Usado para realçar a coluna do cursos
+-- vim.cmd([[ set cursorcolumn ]])
+-- Habilita o realce de sintaxe
 vim.cmd([[ syntax on ]])
+-- Configura a cor de fundo (backgroud)
 vim.cmd([[ set bg=dark ]])
+-- Ativar essa propriedade faz o Nvim emitir cores verdadeiras (24-bits)
+-- no terminal. https://neovim.io/doc/user/term.html
 vim.cmd([[ set termguicolors ]])
---vim.cmd([[ colorscheme onedark ]])
+-- Faz com que os comandos y e p usem o sistema de área de transferência 
+-- (clipboard)
 vim.cmd([[ set clipboard+=unnamedplus ]])
