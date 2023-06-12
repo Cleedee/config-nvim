@@ -6,8 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Alterar as opções básicas para usar vim.opt
 - Instalação e configuração do Noise https://github.com/folke/noice.nvim
 - Instalação e configuração do Which-Key
+- Instalação e configuração do Gundo.vim
+  - https://advancedweb.hu/never-lose-a-change-again-undo-branches-in-vim/
+- Configuração para HTML, CSS, LESS e SCSS
+- Configuração para Python
+- Configuração para Java
+- Configuração para Angular
+- Configuração para React
 
 ## [0.4.0] - 2023-06-09
 - Instalação do Telescope

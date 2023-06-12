@@ -5,10 +5,12 @@
 
 return require('packer').startup(function(use)
   -- Packer can manage itself
-  use 'wbthomason/packer.nvim'
+  use('wbthomason/packer.nvim')
 
   -- temas
-  use 'EdenEast/nightfox.nvim'
+  use('EdenEast/nightfox.nvim')
+  use('elvessousa/sobrio')
+  use('folke/tokyonight.nvim')
 
   use {
     'nvim-treesitter/nvim-treesitter',
