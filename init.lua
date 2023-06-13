@@ -1,6 +1,7 @@
 require("lazy_bootstrap")
 require("options")
 require("keymaps")
---require("colorscheme")
+require("whichkey")
+ --require("colorscheme")
 
 vim.cmd.colorscheme("sobrio")

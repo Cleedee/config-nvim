@@ -7,8 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Instalação e configuração do Noise https://github.com/folke/noice.nvim
-- Atualização do Which-Key
-- Instalação e configuração do Neo-tree
 - Instalação e configuração do Gundo.vim
   - https://advancedweb.hu/never-lose-a-change-again-undo-branches-in-vim/
 - Configuração para HTML, CSS, LESS e SCSS
@@ -16,6 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Configuração para Java
 - Configuração para Angular
 - Configuração para React
+
+
+## [0.7.0] - 2023-06-13
+### Added 
+- Instalação e configuração do Neo-tree
+- Configuração do Which-Key
 
 ## [0.6.0] - 2023-06-13
 
