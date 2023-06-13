@@ -1,0 +1,14 @@
+{
+  "lazy.nvim": { "branch": "main", "commit": "10d4371745f88837c78c8daab00c5be6e48abea4" },
+  "neoconf.nvim": { "branch": "main", "commit": "407cd6d1759c61681831155fa39c63f6ca2e14ba" },
+  "neodev.nvim": { "branch": "main", "commit": "c120c96225f878e096f124321c14c45aa07968b7" },
+  "nightfox.nvim": { "branch": "main", "commit": "77aa7458d2b725c2d9ff55a18befe1b891ac473e" },
+  "nvim": { "branch": "main", "commit": "9aaf5b4ce5cd256695d8bbddb65869d19919abde" },
+  "sobrio": { "branch": "master", "commit": "92174e0fca316f4a19fae70dd3ec144c8ae60bb1" },
+  "tabular": { "branch": "master", "commit": "339091ac4dd1f17e225fe7d57b48aff55f99b23a" },
+  "telescope-fzf-native.nvim": { "branch": "main", "commit": "9bc8237565ded606e6c366a71c64c0af25cd7a50" },
+  "telescope.nvim": { "branch": "master", "commit": "00cf15074a2997487813672a75f946d2ead95eb0" },
+  "tokyonight.nvim": { "branch": "main", "commit": "161114bd39b990995e08dbf941f6821afbdcd666" },
+  "vim-markdown": { "branch": "master", "commit": "cc82d88e2a791f54d2b6e2b26e41f743351ac947" },
+  "which-key.nvim": { "branch": "main", "commit": "e271c28118998c93a14d189af3395812a1aa646c" }
+}

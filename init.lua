@@ -1,7 +1,6 @@
-require("configs.settings")
-require("plugins")
-require("treesitter-config")
-require("telescope-config")
--- vim.cmd.colorscheme('nightfox')
-vim.cmd.colorscheme('tokyonight')
--- vim.cmd.colorscheme('sobrio')
+require("lazy_bootstrap")
+require("options")
+require("keymaps")
+--require("colorscheme")
+
+vim.cmd.colorscheme("sobrio")
