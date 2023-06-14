@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Configuração para Angular
 - Configuração para React
 
+## [0.8.0] - 2023-06-14
+### Added
+- Instalação do Lualine
 
 ## [0.7.0] - 2023-06-13
 ### Added 

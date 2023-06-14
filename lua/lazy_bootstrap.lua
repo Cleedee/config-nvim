@@ -6,6 +6,4 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
-vim.g.mapleader = " "
-
 require("lazy").setup("plugins")
