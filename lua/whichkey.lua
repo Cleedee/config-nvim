@@ -79,11 +79,11 @@ local opts = {
 }
 
 local mappings = {
-
-    ["k"] = { "<cmd>bdelete<CR>", "Kill Buffer" },  -- Close current file
-    ["p"] = { "<cmd>Lazy<CR>", "Plugin Manager" }, -- Invoking plugin manager
-    ["q"] = { "<cmd>wqall!<CR>", "Quit" }, -- Quit Neovim after saving the file
-    ["w"] = { "<cmd>w!<CR>", "Save" }, -- Save current file
+    ["e"] = { "<cmd>Neotree toggle<cr>", "Diretórios" }, -- Árvore de diretórios
+    ["k"] = { "<cmd>bdelete<CR>", "Fechar Buffer" },  -- Close current file
+    ["p"] = { "<cmd>Lazy<CR>", "Plugins" }, -- Invoking plugin manager
+    ["q"] = { "<cmd>wqall!<CR>", "Sair salvando" }, -- Quit Neovim after saving the file
+    ["w"] = { "<cmd>w!<CR>", "Salvar" }, -- Save current file
 
 }
 

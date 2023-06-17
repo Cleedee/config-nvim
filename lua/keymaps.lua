@@ -41,6 +41,9 @@ keymap("n", "<leader>h", ":nohlsearch<cr>", opts) -- No highlight search
 keymap("n", "<a-j>", "<esc>:m .+1<cr>==gi", opts) -- Alt-j 
 keymap("n", "<a-k>", "<esc>:m .-2<cr>==gi", opts) -- Alt-k
 
+-- keymap("n", "<leader>e", "<cmd>Neotree toggle<cr>", opts) 
+
+
 -- insert --
 -- press jk fast to exit insert mode 
 keymap("i", "jk", "<esc>", opts) -- Insert mode -> jk -> Normal mode
