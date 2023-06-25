@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Configurações dos keymaps do Telescope no Which Key 
-- Instalação e configuração do Noise https://github.com/folke/noice.nvim
+- Instalação e configuração do Noice https://github.com/folke/noice.nvim
 - Instalação e configuração do Gundo.vim
   - https://advancedweb.hu/never-lose-a-change-again-undo-branches-in-vim/
 - Configuração para HTML, CSS, LESS e SCSS

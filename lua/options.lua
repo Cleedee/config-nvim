@@ -1,6 +1,7 @@
 local opt = vim.opt
 
 opt.completeopt = { "menuone", "noselect"}    -- controle do menu de completar
+opt.backspace = 'start,eol,indent'
 opt.backup = false                            -- Cria um arquivo de backup
 opt.bg = "dark"                               -- Configura a cor de fundo (backgroud)
 opt.clipboard = "unnamedplus"                 -- Permite o Neovim acessar o sistema de clipboard
