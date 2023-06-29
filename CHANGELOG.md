@@ -6,8 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Configurações dos keymaps do Telescope no Which Key 
-- Instalação e configuração do Noice https://github.com/folke/noice.nvim
 - Instalação e configuração do Gundo.vim
   - https://advancedweb.hu/never-lose-a-change-again-undo-branches-in-vim/
 - Configuração para HTML, CSS, LESS e SCSS
@@ -15,6 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Configuração para Java
 - Configuração para Angular
 - Configuração para React
+
+## [0.9.0] - 2023-06-29
+### Added
+- Configuração parcial para Python
+- Instalação e configuração do Noice
+- Configuração parcial dos keymaps do Telescope no Whick Key
+- Configuração básica do Lspconfig
+- Configuração do Mason
 
 ## [0.8.0] - 2023-06-14
 ### Added
