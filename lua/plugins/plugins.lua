@@ -18,4 +18,10 @@ return {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
+  { "neovim/nvim-lspconfig" },
+  {
+    "williamboman/mason.nvim",
+    build = ":MasonUpdate" -- :MasonUpdate updates registry contents
+  },
+  { "williamboman/mason-lspconfig.nvim" }
 }

@@ -84,7 +84,20 @@ local mappings = {
     ["p"] = { "<cmd>Lazy<CR>", "Plugins" }, -- Invoking plugin manager
     ["q"] = { "<cmd>wqall!<CR>", "Sair salvando" }, -- Quit Neovim after saving the file
     ["w"] = { "<cmd>w!<CR>", "Salvar" }, -- Save current file
-
+    ["m"] = { "<cmd>Mason<cr>", "Mason" },
+    ["r"] = { "<cmd>lua vim.lsp.buf.format{async=true}<cr>", "Reformatar Código" },
+    l = {
+        name = "LSP",
+        a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Code Action" },
+        i = { "<cmd>LspInfo<cr>", "Info" },
+        l = { "<cmd>lua vim.lsp.codelens.run()<cr>", "CodeLens Action" },
+        r = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename" },
+        s = { "<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols" },
+        S = {
+            "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>",
+            "Workspace Symbols",
+        },
+    },
 }
 
 which_key.setup(setup)

@@ -2,6 +2,8 @@ require("keymaps")
 require("options")
 require("lazy_bootstrap")
 require("lualine-config")
+require("lsp-config")
+require("mason-config")
 require("whichkey")
  --require("colorscheme")
 
