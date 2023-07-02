@@ -37,6 +37,7 @@ return {
       ensure_installed = {
         "bash",
         "c",
+        "css",
         "html",
         "javascript",
         "json",
@@ -64,10 +65,10 @@ return {
         },
       },
     },
-    ---@param opts TSConfig
+    -- @param opts TSConfig
     config = function(_, opts)
       if type(opts.ensure_installed) == "table" then
-        ---@type table<string, boolean>
+        -- @type table<string, boolean>
         local added = {}
         opts.ensure_installed = vim.tbl_filter(function(lang)
           if added[lang] then

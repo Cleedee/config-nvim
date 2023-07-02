@@ -14,6 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Configuração para Angular
 - Configuração para React
 
+## [0.9.1] - 2023-07-01
+### Added
+- Configuração adicional do Lspconfig
+- Configuração do Nvim-Cmp para completação de código
+- Configuração parcial de nvim-autopairs e nvim-ts-autotag
+
 ## [0.9.0] - 2023-06-29
 ### Added
 - Configuração parcial para Python

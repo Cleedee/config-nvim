@@ -18,10 +18,16 @@ return {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
-  { "neovim/nvim-lspconfig" },
-  {
-    "williamboman/mason.nvim",
-    build = ":MasonUpdate" -- :MasonUpdate updates registry contents
-  },
-  { "williamboman/mason-lspconfig.nvim" }
+  'onsails/lspkind-nvim',
+  'hrsh7th/cmp-buffer', -- nvim-cmp source for buffer words
+  'hrsh7th/cmp-nvim-lsp', -- nvim-cmp source for neovim's built-in LSP
+  'hrsh7th/nvim-cmp', -- Completion
+  'neovim/nvim-lspconfig', -- LSP
+  'jose-elias-alvarez/null-ls.nvim',
+  'williamboman/mason.nvim',
+  'williamboman/mason-lspconfig.nvim',
+  'glepnir/lspsaga.nvim',
+  'L3MON4D3/LuaSnip',
+  'windwp/nvim-autopairs',
+  'windwp/nvim-ts-autotag'
 }

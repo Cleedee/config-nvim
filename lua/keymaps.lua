@@ -19,6 +19,8 @@ vim.g.maplocalleader = " "
 --   command_mode = "c",
 
     -- Normal --
+-- Select all
+--keymap("n", "<C-a>", "gg<S-v>G")
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts) -- left window
 keymap("n", "<C-k>", "<C-w>k", opts) -- up window
