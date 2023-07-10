@@ -9,10 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Instalação e configuração do Gundo.vim
   - https://advancedweb.hu/never-lose-a-change-again-undo-branches-in-vim/
 - Configuração para HTML, CSS, LESS e SCSS
+  - Mostrar visualmente a cor ao lado do atributo CSS
 - Configuração para Python
 - Configuração para Java
 - Configuração para Angular
 - Configuração para React
+
+## [0.10.0] - 2023-07-10
+### Added
+- Configuração do Autotag
+- Configuração do Autopairs
 
 ## [0.9.1] - 2023-07-01
 ### Added

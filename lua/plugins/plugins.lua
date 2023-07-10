@@ -29,5 +29,6 @@ return {
   'glepnir/lspsaga.nvim',
   'L3MON4D3/LuaSnip',
   'windwp/nvim-autopairs',
-  'windwp/nvim-ts-autotag'
+  'windwp/nvim-ts-autotag',
+  'nvim-telescope/telescope-file-browser.nvim'
 }
