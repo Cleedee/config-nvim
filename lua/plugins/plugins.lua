@@ -9,25 +9,26 @@ return {
       vim.o.timeoutlen = 300
     end,
   },
-  { "folke/neoconf.nvim", cmd = "Neoconf" },
+  { "folke/neoconf.nvim",     cmd = "Neoconf" },
 
   -- markdown support
-  { "godlygeek/tabular"  }, -- necessário para o vim-markdown
+  { "godlygeek/tabular" },  -- necessário para o vim-markdown
   { "plasticboy/vim-markdown" },
   {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
   'onsails/lspkind-nvim',
-  'hrsh7th/cmp-buffer', -- nvim-cmp source for buffer words
-  'hrsh7th/cmp-nvim-lsp', -- nvim-cmp source for neovim's built-in LSP
-  'hrsh7th/nvim-cmp', -- Completion
+  'hrsh7th/cmp-buffer',    -- nvim-cmp source for buffer words
+  'hrsh7th/cmp-nvim-lsp',  -- nvim-cmp source for neovim's built-in LSP
+  'hrsh7th/nvim-cmp',      -- Completion
   'neovim/nvim-lspconfig', -- LSP
+  'saadparwaiz1/cmp_luasnip',
   'jose-elias-alvarez/null-ls.nvim',
   'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
   'glepnir/lspsaga.nvim',
-  'L3MON4D3/LuaSnip',
+  'L3MON4D3/LuaSnip', -- plugin de snippets
   'windwp/nvim-autopairs',
   'windwp/nvim-ts-autotag',
   'nvim-telescope/telescope-file-browser.nvim'
