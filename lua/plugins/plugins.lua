@@ -31,5 +31,6 @@ return {
   'L3MON4D3/LuaSnip', -- plugin de snippets
   'windwp/nvim-autopairs',
   'windwp/nvim-ts-autotag',
-  'nvim-telescope/telescope-file-browser.nvim'
+  'nvim-telescope/telescope-file-browser.nvim',
+  'derektata/lorem.nvim'
 }
