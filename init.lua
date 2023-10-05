@@ -10,6 +10,7 @@ require("ts-autotag-config")
 require("telescope-config")
 require("mason-config")
 require("whichkey")
+require("web-devicons")
  --require("colorscheme")
 
 vim.cmd.colorscheme("sobrio")
