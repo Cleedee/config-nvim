@@ -15,3 +15,10 @@ require("web-devicons")
 
 vim.cmd.colorscheme("sobrio")
 --vim.cmd.colorscheme("morning")
+--Restore cursor position
+vim.api.nvim_create_autocmd({"BufReadPost"}, {
+  pattern = { "*" },
+  callback = function()
+    vim.api.nvim_exec('silent! normal! g`"zv', false)
+  end,
+})
