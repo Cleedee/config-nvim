@@ -11,6 +11,7 @@ require("telescope-config")
 require("mason-config")
 require("whichkey")
 require("web-devicons")
+require("pomo")
  --require("colorscheme")
 
 vim.cmd.colorscheme("solarized-osaka")

@@ -23,6 +23,7 @@ return {
         path = "~/Obsidian",
       },
     },
+    preferred_link_style = "wiki",
 
     -- see below for full list of options 👇
   },

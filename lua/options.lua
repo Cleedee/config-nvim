@@ -28,3 +28,5 @@ opt.wrap = false
 
 -- Corrigir configurações de marcação de markdown
 vim.g.markdown_recommended_style = 0
+
+vim.opt_local.conceallevel = 2
