@@ -113,7 +113,8 @@ local mappings = {
       end, "Find words in all files"
     },
     b = { function() telescope.buffers() end, "Find buffers" },
-    h = { function() telescope.help_tags() end, "Find help" }
+    h = { function() telescope.help_tags() end, "Find help" },
+    t = { "<cmd>TodoTelescope<cr>", "Find todos" }
   }
 }
 

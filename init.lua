@@ -12,6 +12,7 @@ require("mason-config")
 require("whichkey")
 require("web-devicons")
 require("pomo")
+-- require("noice")
  --require("colorscheme")
 
 vim.cmd.colorscheme("solarized-osaka")
