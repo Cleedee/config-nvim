@@ -1,7 +1,9 @@
-local status, autopairs = pcall(require, "nvim-autopairs")
-if (not status) then return end
-
-autopairs.setup({
-  disable_filetype = { "TelescopePrompt" , "vim" },
-})
-
+return {
+  "windwp/nvim-autopairs",
+  event = "InsertEnter",
+  config = function()
+    require("nvim-autopairs").setup({
+      disable_filetype = { "TelescopePrompt", "vim" },
+    })
+  end,
+}

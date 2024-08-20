@@ -18,6 +18,7 @@ return {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
+  { 'echasnovski/mini.nvim', version = false },
   'onsails/lspkind-nvim',
   'hrsh7th/cmp-buffer',    -- nvim-cmp source for buffer words
   'hrsh7th/cmp-nvim-lsp',  -- nvim-cmp source for neovim's built-in LSP
