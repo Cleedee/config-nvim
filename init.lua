@@ -1,10 +1,5 @@
-if vim.loader then
-    vim.loader.enable()
-end
-
-_G.dd = function(...)
-	require("util.debug").dump(...)
-end
-vim.print = _G.dd
-
+require("keymaps")
+require("options")
 require("config.lazy")
+require("plugins.keymaps")
+require("plugins.options")
