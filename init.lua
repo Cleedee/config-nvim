@@ -4,22 +4,22 @@ require("config.lazy")
 require("plugins.keymaps")
 require("plugins.options")
 
+-- Global LSP configuration (applies to all servers)
 vim.lsp.config("*", {
+	-- Example: configure diagnostic virtual text
+	diagnostics = {
+		virtual_text = true,
+	},
+	-- Example: an on_attach function to set up buffer-local keymaps
 	on_attach = function(client, bufnr)
-		-- overwrites omnifunc/tagfunc set by some Python plugins to the
-		-- default values for LSP
-		vim.api.nvim_set_option_value("omnifunc", "v:lua.vim.lsp.omnifunc", { buf = bufnr })
-		vim.api.nvim_set_option_value("tagfunc", "v:lua.vim.lsp.tagfunc", { buf = bufnr })
-
-		vim.keymap.set({ "n", "v" }, "K", vim.lsp.buf.hover, { buffer = bufnr })
-		vim.keymap.set({ "n", "v" }, "<F4>", vim.lsp.buf.format, { buffer = bufnr })
-		vim.keymap.set("n", "gu", vim.lsp.buf.references, { buffer = bufnr })
-		vim.keymap.set("n", "gr", vim.lsp.buf.rename, { buffer = bufnr })
-
-		vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
-			signs = true,
-			underline = true,
-			virtual_text = true,
-		})
+		-- Enable default Neovim LSP keymaps
+		vim.lsp.buf.defaults.mappings()
+		-- Add your own keymaps (example)
+		vim.keymap.set("n", "gD", vim.lsp.buf.definition, { buffer = bufnr, desc = "LSP: Go to definition" })
+		vim.keymap.set("n", "K", vim.lsp.buf.hover, { buffer = bufnr, desc = "LSP: Hover" })
+		-- Check :help lsp-defaults for more
 	end,
 })
+
+-- Enable the language servers
+vim.lsp.enable("pylsp")
