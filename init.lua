@@ -1,25 +1,36 @@
-require("keymaps")
-require("options")
+-- ~/.config/nvim/init.lua
 require("config.lazy")
-require("plugins.keymaps")
-require("plugins.options")
 
--- Global LSP configuration (applies to all servers)
-vim.lsp.config("*", {
-	-- Example: configure diagnostic virtual text
-	diagnostics = {
-		virtual_text = true,
-	},
-	-- Example: an on_attach function to set up buffer-local keymaps
-	on_attach = function(client, bufnr)
-		-- Enable default Neovim LSP keymaps
-		vim.lsp.buf.defaults.mappings()
-		-- Add your own keymaps (example)
-		vim.keymap.set("n", "gD", vim.lsp.buf.definition, { buffer = bufnr, desc = "LSP: Go to definition" })
-		vim.keymap.set("n", "K", vim.lsp.buf.hover, { buffer = bufnr, desc = "LSP: Hover" })
-		-- Check :help lsp-defaults for more
-	end,
-})
+-- Leader key
+vim.g.mapleader = " "
 
--- Enable the language servers
-vim.lsp.enable("pylsp")
+-- Options
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.clipboard = "unnamedplus"
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.expandtab = true
+vim.opt.termguicolors = true
+vim.opt.scrolloff = 8
+vim.opt.mouse = "a"
+vim.opt.timeoutlen = 300 -- Delay curto para atalhos
+
+-- Native LSP Config (0.11+)
+vim.lsp.enable("pyright")
+
+-- Keymaps
+-- Atalho: <Leader>e para abrir o Oil
+vim.keymap.set("n", "<leader>e", "<CMD>Oil<CR>", { desc = "Abrir Oil (Navegador de Arquivos)" })
+-- vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float)
+vim.keymap.set("n", "[d", function()
+	vim.diagnostic.jump({ count = -1, float = true })
+end)
+vim.keymap.set("n", "]d", function()
+	vim.diagnostic.jump({ count = 1, float = true })
+end)
+
+vim.keymap.set("n", "<leader>w", ":w<CR>")
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex) -- File explorer nativo
