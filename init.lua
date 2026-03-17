@@ -24,7 +24,7 @@ vim.lsp.enable("pyright")
 -- Keymaps
 -- Atalho: <Leader>e para abrir o Oil
 vim.keymap.set("n", "<leader>e", "<CMD>Oil<CR>", { desc = "Abrir Oil (Navegador de Arquivos)" })
--- vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float)
+vim.keymap.set("n", "<leader>ds", vim.diagnostic.open_float, { desc = "Mostrar diagnóstico" })
 vim.keymap.set("n", "[d", function()
 	vim.diagnostic.jump({ count = -1, float = true })
 end)
