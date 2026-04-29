@@ -6,17 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Instalação e configuração do Gundo.vim
-  - https://advancedweb.hu/never-lose-a-change-again-undo-branches-in-vim/
-- Configuração para HTML, CSS, LESS e SCSS
-  - Mostrar visualmente a cor ao lado do atributo CSS
-- Configuração para Python
-  - isort, blue 
-- Configuração para Java
-- Configuração para Angular
-- Configuração para React
-- Nova configuração do nvim-lspconfig
-- Configuração de snipets com nvim-cmp e LuaSnip
+
+## [0.12.0]
+### Changed
+ - Configuração minimalista 
 
 ## [0.11.0]
 ### Changed
